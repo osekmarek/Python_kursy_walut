@@ -17,26 +17,4 @@ for i in a:
 print("Kursy walut z tabeli:",a['table'],"z dnia:",a['effectiveDate'])
 print('nazwa waluty;','symbol waluty;','kurs waluty')
 for i in a['rates']:
-    print(i['currency']+';',i['code']+';',i['mid'])
-
-
-
-
-
-# print(result[0]['rates'])
-
-
-# for i in result[0]['rates']:
-#     print(i['currency'],i['code'],i['mid'])
-
-
-
-
-
-
-
-
-
-
-
-    
+    print(i['currency']+';',i['code']+';',i['mid'])   
